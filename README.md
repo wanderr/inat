@@ -14,8 +14,8 @@ This consists of two scripts:
 2. inat_rarity_report_to_html.php: This converts the CSVs generated above into a cute little html page with links to the observations.
 
 example usage:
-- php inat_user_reports.php <username> ./out --sleep=0.5 --max-pages=6 --batch=200
-- php inat_report_from_username.php <username> ./out --sleep=0.05
+- php inat_rarity_reports.php <username> ./out --sleep=0.5 --max-pages=6 --batch=200
+- php inat_rarity_report_to_html.php <username> ./out --sleep=0.05
 
 ### Example Report
 ![Example report](_Users_jay_workspace_inat_out_jayparoline_inat_report.html.jpg)
